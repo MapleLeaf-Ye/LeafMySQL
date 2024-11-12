@@ -1,0 +1,36 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "LeafMySQL",
+	"Description": "Link MySql to UE,can be accessed quickly and easily",
+	"Category": "Other",
+	"CreatedBy": "MapleLeaf_Ye",
+	"CreatedByURL": "https://space.bilibili.com/35611577?spm_id_from=333.1007.0.0",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "LeafMySQL",
+			"Type": "Runtime",
+			"LoadingPhase": "EarliestPossible",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "LeafMySQLEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	]
+}
